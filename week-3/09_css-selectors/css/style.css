@@ -1,0 +1,42 @@
+/* 
+* {
+	border: 1px solid blue;
+}
+*/
+
+body {
+	font-family: arial;
+}
+
+/* type */
+
+h1 {
+	font-size: 36px;
+	color: red;
+}
+
+/* intro section */
+
+section {
+	background: lightpink;
+}
+
+section p {
+	font-size: 24px;
+}
+
+#about {
+	border-left: 1px solid blue;
+	padding-left: 20px;
+}
+
+/* basic styles */
+
+.highlight {
+	background: yellow;
+}
+
+.small-caps {
+	text-transform: uppercase;
+	font-size: .8rem;
+}
