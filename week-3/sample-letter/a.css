@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+}
+
+.bounding-box{
+    position: relative;
+    width: 308px;
+    height: 516px;
+    background: lightgrey;
+}
+
+.segment {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 0px;
+    background: blue;
+}
+
+.segment.blank {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 0px;
+    background: none;
+}
