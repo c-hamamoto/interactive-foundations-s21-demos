@@ -1,0 +1,10 @@
+body{
+	font-family: 'Arial', sans-serif;
+	background: rgb(255,255,0);
+}
+
+h1{
+	color: rgba(0,255,255,.2);
+	color: cyan;
+	color: #ff0000;
+}

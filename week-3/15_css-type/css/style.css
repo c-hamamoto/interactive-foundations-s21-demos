@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Pilowlava";
+  src: url("../fonts/Pilowlava-Regular.woff2") format("woff2"),
+       url("../fonts/Pilowlava-Regular.woff") format("woff"),
+       url("../fonts/Pilowlava-Regular.woff2") format("eot");
+}
+
+/* type */
+
+body{
+	font-family: arial, sans-serif; 
+/*	font-family: 'Yatra One', cursive;
+	font-family: collector-comic, sans-serif;*/
+	
+	font-weight: 400;
+	font-style: italic;
+
+	/*font-weight: bold;
+	font-style: italic;
+	*/
+	letter-spacing: -1px;
+	line-height: 20px;
+	text-decoration: line-through;
+	text-align: right;
+}
+
+h1 {
+	font-family: Pilowlava;
+}
+
+
+
+/* position */
+
+section {
+	width: 600px;
+	margin-left: 400px;
+}
+
+/* relative position */
+
+.indent {
+	position: relative;
+	left: 20px;
+}
+
+/* absolute position */
+
+#intro {
+	position: absolute;
+	width: 320px;
+	left: 40px;
+}
+
+/* fixed position */
+
+#smiley {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 2rem;
+}
+
+#smiley a{ 
+	text-decoration: none;
+}
+
+
+/* sticky position */
+
+.section-title {
+	position: sticky;
+	top: 0px;
+}

@@ -1,0 +1,17 @@
+body{
+	font-family: 'Arial', sans-serif;
+	background: linear-gradient(red,blue);
+}
+
+.catgif{
+	border: 5px dashed blue;
+	width: 500px;
+	height: 500px;
+	background-color: yellow;
+	background-image: url('../img/computercat.gif');
+	background-repeat: no-repeat;
+	background-size: 500px;
+	background-blend-mode: exclusion;
+	background-position: top left;
+	background-attachment: fixed;
+}

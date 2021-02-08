@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box;
+}
+
+/* type */
+
+body{
+	font-family: 'Arial', sans-serif;
+}
+
+/* positioning */
+
+#intro, section {
+	width: 600px;
+	margin: auto;
+}
+
+/* relative position */
+
+/*.indent {
+	position: relative;
+	left: 20px;
+}
+*/
+/* absolute position */
+
+/*#intro {
+	position: absolute;
+	width: 320px;
+	left: 40px;
+}
+*/
+/* fixed position */
+
+/*#smiley {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 2rem;
+}
+
+#smiley a{ 
+	text-decoration: none;
+}*/
+
+/* sticky position */
+
+/*.section-title {
+	position: sticky;
+	top: 0px;
+}*/

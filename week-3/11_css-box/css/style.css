@@ -1,0 +1,35 @@
+
+/* reset */
+
+/** {
+	margin: 0px;
+	padding: 0px;
+}*/
+
+* {
+	box-sizing: border-box;	
+}
+
+body{
+	font-family: 'Arial', sans-serif;
+}
+
+h1 {
+}
+
+.contrasts {
+	width: 500px;
+	padding: 20px;
+	border: 1px solid blue;
+	margin: 20px auto 100px;
+	padding: 0px 20px;
+}
+
+.top {
+	background: rgba(0,255,0,.2)
+}
+
+.quote {
+	font-weight: bold;
+	color: red;
+}
