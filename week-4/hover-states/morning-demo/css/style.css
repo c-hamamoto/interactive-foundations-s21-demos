@@ -1,0 +1,128 @@
+* {
+	box-sizing: border-box;
+}
+
+/* type */
+
+body{
+	font-family: 'Arial', sans-serif;
+}
+
+/* text */
+
+p {
+	font-size: 22px;
+}
+
+/* try uncommenting below to see text changes on hover */
+
+/*p:hover {
+	letter-spacing: 2px;
+}*/
+
+
+/* 
+
+CSS shapes 
+https://css-tricks.com/the-shapes-of-css/
+
+*/
+
+.shape{
+	display: inline-block;
+	padding: 20px;
+	vertical-align: top;
+	position: relative;
+}
+
+/* try uncommenting below to see blur on hover */
+
+/*.shape:hover div {
+	filter: blur(10px);
+} 
+*/
+/* circles */
+
+.circle {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	background: black;
+}
+
+.oval {
+	width: 300px;
+	height: 100px;
+	background: black;
+	border-radius: 150px / 50px;
+}
+
+.sliver {
+	width: 300px;
+	height: 40px;
+	background: black;
+	border-radius: 150px / 20px;
+}
+
+/* square */
+
+.rect {
+	width: 40px;
+	height: 437px;
+	background: black;
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+.bar{
+	width: 10px;
+	height: 100%;
+	background: red;
+}
+
+/* Targeting different elements */
+/* Try uncommenting these one at a time */
+
+/*.shape:hover .bar{
+	background: blue;
+}
+*/
+/*.rect:hover .bar{
+	background: green;
+}
+
+.bar:hover{
+	background: yellow;
+}*/
+
+/* stars */
+
+.star {
+	background: black;
+	width: 80px;
+	height: 80px;
+	position: relative;
+	text-align: center;
+
+	transform-origin: top left;
+	transform: scaleX(2) scaleY(4.25) translateX(10px) translateY(10px);
+}
+
+.star:before,
+.star:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 80px;
+	width: 80px;
+	background: black;
+}
+
+.star:before {
+	transform: rotate(30deg);
+}
+
+.star:after {
+	transform: rotate(60deg);
+}

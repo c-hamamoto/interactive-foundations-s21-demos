@@ -1,0 +1,66 @@
+* {
+	box-sizing: border-box;
+}
+
+/* type */
+
+body {
+	font-family: 'Arial', sans-serif;
+}
+
+#text, #shape{
+	width: 300px;
+	display: inline-block;
+	padding: 20px;
+	vertical-align: top;
+}
+
+/* text */
+
+p {
+	font-size: 22px;
+	color: red;
+	transition: all 800ms ease 0s;
+	transform-origin: top left;
+}
+
+p:hover {
+	transform: skew(30deg) scale(12);	
+}
+
+/* shapes */
+
+.circle {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	background: black;
+
+	transition: all 800ms ease 0s;			
+}
+
+.circle:hover {
+	background: red;
+	border-radius: 0px; 
+}
+
+.oval {
+	width: 300px;
+	height: 100px;
+	background: black;
+	border-radius: 150px / 50px;
+	
+	transition: all 800ms ease 0s;				
+}
+
+.oval:hover {
+	background: pink;
+	transform: rotate(1080deg) scale(2) skew(30deg);
+}
+
+.sliver {
+	width: 300px;
+	height: 40px;
+	background: black;
+	border-radius: 150px / 20px;
+}
