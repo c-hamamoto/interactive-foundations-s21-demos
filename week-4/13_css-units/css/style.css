@@ -1,7 +1,26 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	font-size:16px;
+}
 
 body{
 	font-family: 'Arial', sans-serif;
+	margin: 0px;
+	padding: 0px;
 }
 
-section{
+section {
+	font-size: 1.5rem;
+	height: 50vh;
+	width: 100vw;
+	background: yellow;
 }	
+
+p {
+	font-size: 1rem;
+	border: 1px solid blue;
+}

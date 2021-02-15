@@ -12,6 +12,7 @@ body{
     width: 308px;
     height: 516px;
     background: lightgrey;
+    margin: 100px;
 }
 
 .segment {
@@ -23,9 +24,13 @@ body{
 }
 
 .segment.blank {
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-    margin: 0px;
     background: none;
 }
+
+.round {
+    border-radius: 100px;
+}
+
+.round:hover {
+    border-radius: 0px;
+}  
