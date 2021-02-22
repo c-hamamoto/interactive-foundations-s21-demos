@@ -1,0 +1,31 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: yellow;	
+}
+
+/* navigation */
+
+nav {
+	padding: 30px;
+}
+
+/* stage */
+
+#showcase {
+	width: 1200px;
+	height: 800px;
+	margin: auto;
+	overflow: visible;
+	position: relative;
+	top: calc(50vh - 400px);
+}
+
+/* images */
+
+svg:hover path {
+	fill: pink ;
+}

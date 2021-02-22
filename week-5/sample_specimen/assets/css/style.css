@@ -1,0 +1,100 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: pink;	
+}
+
+/* navigation */
+
+nav {
+	padding: 30px;
+}
+
+/* stage */
+
+#showcase {
+	width: 1200px;
+	height: 800px;
+	margin: auto;
+	overflow: visible;
+	position: relative;
+	top: calc(50vh - 400px);
+}
+
+/* letter */
+
+.letter {
+	position: absolute;
+	opacity: 0;
+	animation: opacity 1s ease 1s forwards;
+}
+
+@keyframes opacity{
+	from{ opacity: 0; }
+	to { opacity: 1; }
+}
+
+.component {
+	transform-origin: center;
+	position: absolute;
+	transition: all 800ms ease;	
+}
+
+/* letter A */
+
+#a {
+	width: 400px;
+	height: 615px;
+	top: 50px;
+	left: 400px;
+}
+
+.top-round {
+	width: 400px;
+	height: 400px;
+	border-top: 200px solid red;
+	background: transparent;
+	border-radius: 200px;
+	transform: rotate(-40deg) translateX(-300px) translateY(-300px);
+}
+
+.top-round-counter {
+	width: 200px;
+    height: 300px;
+    border-top: 200px solid pink;
+    background: transparent;
+    border-radius: 200px;
+    left: 100px;
+    top: -100px;
+
+}
+
+.vertical {
+	width: 100px;
+    height: 480px;
+    background: orange;
+    top: 190px;
+	transform: rotate(120deg) translateX(100px) translateY(-20px);
+}
+
+.right {
+	left: 300px;
+	transform: rotate(350deg) translateX(290px) translateY(-300px);
+}
+
+.crossbar {
+	width: 400px;
+	height: 100px;
+	top: 280px;
+	background: red;
+	transform: rotate(59deg) translateX(140px) translateY(-50px);	
+}
+
+/* hover */
+
+#a:hover .top-round, #a:hover .vertical, #a:hover .crossbar {
+	transform: rotate(0deg) translateX(0px) translateY(0px);
+}
