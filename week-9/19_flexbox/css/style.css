@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.centered{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background: gray;
+}
+
+.box{
+	background: coral;
+	border: 1px solid red;
+	box-sizing: border-box;
+	padding: 1em;
+	height: 150px;
+	/*flex: 1;*/
+	min-width: 50%;
+}
+
+.box:first-child{
+	flex: 2;
+}
+
+/*.first{
+	width: 500px;
+}*/
+
+p{
+	font-style: italic;
+}
+
+
+

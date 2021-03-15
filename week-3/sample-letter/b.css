@@ -18,28 +18,35 @@ body{
     width: 30px;
     height: 400px;
     display: block;
+    position: absolute;    
+    background: black;
+    left: 28px;
+    top: 58px;
+}
+
+.horizontal-stroke {
+    width: 200px;
+    height: 30px;
+    background: black;
+
     position: absolute;
     top: 58px;
     left: 28px;
-    
-    background: linear-gradient(0deg, rgba(255,102,102,1) 100%, rgba(255,199,0,1) 100%);
 }
 
-.round {
-    width: 240px;
-    height: 240px;
-    border-radius: 150px;
-    background: radial-gradient(circle, rgba(255,190,102,1) 0%, rgba(255,54,54,0.22872899159663862) 100%);
-
-    position: absolute;
+.middle {
+    top: 200px;
 }
 
-.top {
-    top: 30px;
-    left: 43px;
+.right{
+    left: 228px; 
 }
 
-.bottom {
-    top: 229px;
-    left: 43px;
+.red {
+    background: red;
+    opacity: 0;
+}
+
+.bounding-box:hover .red {
+    opacity: 1;
 }

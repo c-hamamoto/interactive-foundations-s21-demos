@@ -24,6 +24,10 @@ nav {
 	top: calc(50vh - 400px);
 }
 
+/*img{
+	display: block;
+}*/
+
 /* images */
 
 svg:hover path {

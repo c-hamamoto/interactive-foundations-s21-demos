@@ -22,6 +22,7 @@ nav {
 	overflow: visible;
 	position: relative;
 	top: calc(50vh - 400px);
+	background: blue;
 }
 
 /* letter */
@@ -50,6 +51,7 @@ nav {
 	height: 615px;
 	top: 50px;
 	left: 400px;
+	background: red;
 }
 
 .top-round {
@@ -77,12 +79,12 @@ nav {
     height: 480px;
     background: orange;
     top: 190px;
-	transform: rotate(120deg) translateX(100px) translateY(-20px);
-}
+/*	transform: rotate(120deg) translateX(100px) translateY(-20px);
+*/}
 
 .right {
 	left: 300px;
-	transform: rotate(350deg) translateX(290px) translateY(-300px);
+/*	transform: rotate(350deg) translateX(290px) translateY(-300px);*/
 }
 
 .crossbar {
@@ -90,11 +92,19 @@ nav {
 	height: 100px;
 	top: 280px;
 	background: red;
-	transform: rotate(59deg) translateX(140px) translateY(-50px);	
-}
+/*	transform: rotate(59deg) translateX(140px) translateY(-50px);	
+*/}
 
 /* hover */
 
-#a:hover .top-round, #a:hover .vertical, #a:hover .crossbar {
+#showcase:hover #a .top-round, #a:hover .vertical, #a:hover .crossbar {
 	transform: rotate(0deg) translateX(0px) translateY(0px);
 }
+
+#showcase:hover  #a .top-round {
+	background: yellow;
+}
+
+
+
+
