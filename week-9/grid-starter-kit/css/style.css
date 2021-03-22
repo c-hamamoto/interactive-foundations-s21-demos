@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 44px;
+}
+
+#grid {
+	width: 900px;
+	height: 900px;
+	margin: 40px auto;
+	border: 10px solid black;
+
+	/* uncomment below to enable the grid */
+
+	/*	
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	*/
+	
+	background: black;
+}
+
+.item {
+	background: white;
+}

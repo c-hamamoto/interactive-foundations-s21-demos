@@ -3,17 +3,23 @@
 	padding: 0;
 }
 .container{
+	background: yellow;
+	height: 100vh;
 	display: flex;
-	justify-content: space-between;
+	
+	justify-content: flex-start;
+	/*align-items: flex-start;*/	
 	flex-wrap: wrap;
+	
 }
 
 .centered{
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	height: 100vh;
 	background: gray;
+
+	display: flex;
+	justify-content: center;	
+	align-items: center;
 }
 
 .box{
@@ -21,14 +27,15 @@
 	border: 1px solid red;
 	box-sizing: border-box;
 	padding: 1em;
-	height: 150px;
+	/*height: 150px;*/
 	/*flex: 1;*/
 	min-width: 50%;
 }
 
-.box:first-child{
-	flex: 2;
+/*.box:first-child{
+	flex: 3;
 }
+*/
 
 /*.first{
 	width: 500px;
