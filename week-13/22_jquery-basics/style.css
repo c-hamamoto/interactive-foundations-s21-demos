@@ -1,0 +1,45 @@
+p {
+	text-align: center;
+}
+
+.controls{
+	text-align: center;
+	margin-top: 3rem;
+}
+
+.elementcontainer {
+	height: 80vh;
+	display: flex;
+  	align-items: center;
+  	align-content: center;
+  	-webkit-flex-flow: wrap;
+  	justify-content: center;
+}
+
+.element {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	transition: background-color 800ms ease-in;
+	background-color: blue;
+}
+
+.element:hover{
+	cursor: pointer;
+}
+
+.play{
+	background-color: rgb(255 0 230);
+	animation: wheel 1s ease-in-out infinite;
+}
+
+@keyframes wheel {
+	0% {
+		transform: rotateY(0deg);
+	}
+	100% {
+		transform: rotateY(360deg);
+	}
+}
+
+
