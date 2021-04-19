@@ -89,19 +89,9 @@ body.darkmode {
 	color: white;
 	/*	redefine a CSS variable */
 	--accent-color: rgb(0,255,0);
-	animation: wheel 1s ease-in-out infinite;	
 }
 
 body.darkmode button{
 	color: white;
 	font-family: times;
-}
-
-@keyframes wheel {
-	0% {
-		transform: rotateY(0deg);
-	}
-	100% {
-		transform: rotateY(360deg);
-	}
 }
