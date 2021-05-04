@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="ie=edge" http-equiv="x-ua-compatible">
+  <title>Drag Interface</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+
+  <link href="jquery-ui.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+  <div class="square">
+    drag this square
+  </div>
+  <div class="square">
+    drag this square
+  </div>
+  <div class="square">
+    drag this square
+  </div>
+  <div class="square">
+    drag this square
+  </div>
+  <div class="square">
+    drag this square
+  </div>
+  <div class="square">
+    drag this square
+  </div>
+  <div class="square">
+    drag this square
+  </div>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="jquery-ui.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".square").draggable();
+    });
+  </script>  
+</body>
+</html>

@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+  background: lightgrey;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    background: pink;
+}
+
+.slideshow {
+    background: yellow;
+}
+
+.item {
+    width: 100vw;
+    height: 100vh;    
+    background: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.item:nth-child(2n){
+    background: lightblue;
+}

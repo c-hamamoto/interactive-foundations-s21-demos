@@ -1,7 +1,12 @@
-console.log('hello');
-
-
 $(document).ready(function(){
+
+	//------------------------------------
+	// adds a a darkmode class to the body
+	//------------------------------------
+	$("#darkmode").click(function(){
+		$('body').toggleClass('darkmode');
+	});
+
 
 	//------------------------------------
 	// show hide each item
@@ -16,13 +21,6 @@ $(document).ready(function(){
 	//---------------------------
 	$("#showhide").click(function(){
 		$('.item').toggleClass('active');
-	});
-
-	//------------------------------------
-	// adds a a darkmode class to the body
-	//------------------------------------
-	$("#darkmode").click(function(){
-		$('body').toggleClass('darkmode');
 	});
 
 });

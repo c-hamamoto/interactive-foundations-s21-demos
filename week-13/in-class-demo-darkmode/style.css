@@ -88,10 +88,9 @@ body.darkmode {
 	background: black;
 	color: white;
 	/*	redefine a CSS variable */
-	--accent-color: rgb(0,255,0);
+	/*--accent-color: rgb(0,255,0);*/
 }
 
 body.darkmode button{
 	color: white;
-	font-family: times;
 }

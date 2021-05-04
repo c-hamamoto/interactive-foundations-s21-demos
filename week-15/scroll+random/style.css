@@ -1,0 +1,54 @@
+:root {
+  --bg-color-one: grey;
+  --bg-color-two: pink;
+  --border-color: green;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	height: 300px;
+	background-color: var(--bg-color-one);
+	border: 1px solid var(--border-color);
+}
+
+.box.odd {
+	background-color: var(--bg-color-two);
+	border: 1px solid var(--border-color);
+}
+
+/* lock scrolling on body */
+
+/*body {
+	overflow: hidden;
+}
+*/
+/* display horizontal */
+
+#horizontal-scroll .box{
+	display: inline-block;
+}
+
+#horizontal-scroll {
+	background: rgba(0,255,0,.4);
+	width: 100vw;
+	height: 100vh;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#horizontal-scroll .inner-container {
+	width: 4000px;
+}
+
